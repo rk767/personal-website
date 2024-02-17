@@ -36,8 +36,8 @@ const Projects = () => {
               </svg>
             </div>
             <div className='w-full h-fit'>
-              <h1 className='p-4 text-2xl'>[PROCESS ECOLOGY] <br /> <span className='text-xl text-green-200 font-semibold'>P&ID Digitization</span></h1>
-              <p className='px-4'>Currently developing software, using computer vision, to automate and accelerate the digitization of Piping and Instrumentation diagrams</p>
+              <h1 className='p-4 text-2xl'>[ULTRALYTICS] <br /> <span className='text-xl text-green-200 font-semibold'>YOLOv8 Tumor Detection</span></h1>
+              <p className='px-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sit? Earum quibusdam voluptas eius ea?</p>
 
             </div>
           </div>
