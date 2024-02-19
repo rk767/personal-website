@@ -8,10 +8,10 @@ const AboutSection = ({ href, title }) => {
         <section className='relative h-screen w-screen -translate-y-56 ' id='about'>
             <svg className='stroke-2 stroke-white z-10 svg w-screen' id='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#020617" fillOpacity="1" d="M0,160L48,133.3C96,107,192,53,288,48C384,43,480,85,576,96C672,107,768,85,864,74.7C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
             <section className='bg-slate-950 w-screen flex justify-center items-center flex-col -translate-y-1 smm:-translate-y-[8vw]'>
-              <h1 ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-kanit font-bold text-5xl text-center sm:text-4xl`}>A little about me.</h1>
+              <h1 ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} text-white smm:opacity-0 font-kanit font-bold text-5xl text-center sm:text-4xl`}>A little about me.</h1>
               <div  className={`w-fit flex flex-col items-end justify-center`}>
                 <p ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 text-white rounded-md border-blue-600 border-2 p-3 mt-6 bg-slate-900 max-w-[850px] lg:max-w-[600px] sm:m-7`}>Hi! I&apos;m an 18 year old developer from Canada! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat minima eligendi pariatur sint velit nam magni ad expedita animi saepe necessitatibus enim commodi eum asperiores consequuntur, impedit repellendus perspiciatis iure.</p>
-                <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 mr-1`}>Some languages and frameworks I use</h2>
+                <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 mr-1 text-white`}>Some languages and frameworks I use</h2>
                 <div className='flex items-center justify-center sm:hidden'>
                   <ul className="relative z-10 flex flex-row gap-4 py-3 mt-5 flex-wrap items-center justify-center" id='about-icons'>
                     <li ref={ioRef} className={`${ elIsVisible ? styles.animateFadeBottom : ""} smm:opacity-0`}>
@@ -65,16 +65,16 @@ const AboutSection = ({ href, title }) => {
                       </a>
                     </li>
                   </ul>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className={`${ elIsVisible ? styles.arrowFade2 : ""} smm:opacity-0 rotate-180 m-5 sm:m-7`} viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className={`${ elIsVisible ? styles.arrowFade2 : ""} smm:opacity-0 rotate-180 m-5 sm:m-7 fill-white`} viewBox="0 0 16 16">
                       <path fillRule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708z"/>
                   </svg>
                 </div>
                 <div className='w-full mt-16'>
                   <div  className={`w-fit flex flex-col items-start justify-center`}>
-                    <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 ml-1`} >Some tools I use on a daily basis</h2>
+                    <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 ml-1 text-white`} >Some tools I use on a daily basis</h2>
 
                     <div className='flex items-center justify-center sm:hidden'>
-                      <svg width="50" height="50" className={` ${ elIsVisible ? styles.arrowFade1 : ""} smm:opacity-0 m-5 sm:m-7`} fill="currentColor" viewBox="0 0 16 16">
+                      <svg width="50" height="50" className={` ${ elIsVisible ? styles.arrowFade1 : ""} smm:opacity-0 m-5 sm:m-7 fill-white`} fill="currentColor" viewBox="0 0 16 16">
                         <path fillRule="evenodd" d="M4.854 14.854a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V3.5A2.5 2.5 0 0 1 6.5 1h8a.5.5 0 0 1 0 1h-8A1.5 1.5 0 0 0 5 3.5v9.793l3.146-3.147a.5.5 0 0 1 .708.708z"/>
                       </svg>
                       <ul className="relative z-10 flex flex-row gap-4 py-3 mt-5 flex-wrap items-center justify-center" id='about-icons-2'>

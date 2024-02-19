@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <section className='h-fit w-full flex items-center justify-center flex-col mb-56' id='projects'>
-      <h1 className=' text-7xl sm:text-5xl font-bold mb-20'>Projects</h1>
+      <h1 className=' text-7xl sm:text-5xl font-bold mb-20 text-white'>Projects</h1>
       <div className='flex gap-12 items-center justify-center flex-row flex-wrap'>
           <div className='hover:-translate-y-3 duration-500 w-[290px] h-[420px] border-2 rounded-lgflex justify-center items-center text-sky-200 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]'>
             <div className='w-full h-[180px]'>
