@@ -6,7 +6,7 @@
 ### 1. Clone the repository
 #### Github Cli (requires installation)
 ```
-gh repo clone Ryan2k05/personal-website
+gh repo clone rk767/personal-website
 ```
 ### 2. Install the required node modules by running (requires NodeJS on system)
 ```
