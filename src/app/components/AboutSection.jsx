@@ -5,13 +5,13 @@ import styles from '../custom.module.css'
 const AboutSection = ({ href, title }) => {
   const {ref: ioRef,inView: elIsVisible} = useInView({threshold: 0.6, triggerOnce: true});
   return (
-        <section className='relative h-screen w-screen -translate-y-56 ' id='about'>
+        <section className='relative h-fit w-screen -translate-y-56 ' id='about'>
             <svg className='stroke-2 stroke-white z-10 svg w-screen' id='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#020617" fillOpacity="1" d="M0,160L48,133.3C96,107,192,53,288,48C384,43,480,85,576,96C672,107,768,85,864,74.7C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
             <section className='bg-slate-950 w-screen flex justify-center items-center flex-col -translate-y-1 smm:-translate-y-[8vw]'>
               <h1 ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} text-white smm:opacity-0 font-kanit font-bold text-5xl text-center sm:text-4xl`}>A little about me.</h1>
               <div  className={`w-fit flex flex-col items-end justify-center`}>
-                <p ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 text-white rounded-md border-blue-600 border-2 p-3 mt-6 bg-slate-900 max-w-[850px] lg:max-w-[600px] sm:m-7`}>Hi! I&apos;m an 18 year old developer from Canada! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat minima eligendi pariatur sint velit nam magni ad expedita animi saepe necessitatibus enim commodi eum asperiores consequuntur, impedit repellendus perspiciatis iure.</p>
-                <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 mr-1 text-white`}>Some languages and frameworks I use</h2>
+                <p ref={ioRef} className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 text-white rounded-md border-blue-600 border-2 p-3 mt-6 bg-slate-900 max-w-[850px] lg:max-w-[600px] sm:m-7`}>Hi! I&apos;m an 18 year old developer from Canada! I have experience with Java, C#, C++, dotNet, TensorRT, NextJS, ExpressJS, Flask, React, MongoDB, SQlite, TailwindCSS, Python, Pytorch, Yolov8, Arduino and much more. In my free time, I enjoy playing basketball and the piano.</p>
+                <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 sm:hidden font-semibold text-xl mt-10 mr-1 text-white`}>Some languages and frameworks I use</h2>
                 <div className='flex items-center justify-center sm:hidden'>
                   <ul className="relative z-10 flex flex-row gap-4 py-3 mt-5 flex-wrap items-center justify-center" id='about-icons'>
                     <li ref={ioRef} className={`${ elIsVisible ? styles.animateFadeBottom : ""} smm:opacity-0`}>
@@ -71,7 +71,7 @@ const AboutSection = ({ href, title }) => {
                 </div>
                 <div className='w-full mt-16'>
                   <div  className={`w-fit flex flex-col items-start justify-center`}>
-                    <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 font-semibold text-xl mt-10 ml-1 text-white`} >Some tools I use on a daily basis</h2>
+                    <h2 className={`${ elIsVisible ? styles.fadeBottom : ""} smm:opacity-0 sm:hidden font-semibold text-xl mt-10 ml-1 text-white`} >Some tools I use on a daily basis</h2>
 
                     <div className='flex items-center justify-center sm:hidden'>
                       <svg width="50" height="50" className={` ${ elIsVisible ? styles.arrowFade1 : ""} smm:opacity-0 m-5 sm:m-7 fill-white`} fill="currentColor" viewBox="0 0 16 16">

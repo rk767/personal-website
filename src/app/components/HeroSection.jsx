@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
+
 const HeroSection = () => {
   return (
-  <section data-te-animation-start="onLoad" className="hero-section flex w-screen h-[110vh] items-center justify-center flex-row gap-44">    
+  <section data-te-animation-start="onLoad" className="hero-section flex w-screen h-[110vh] lg:h-[100vh] items-center justify-center flex-row gap-44">    
     <div className=" mt-28 sm:mt-0 mx-11">
       <div>
         <h1 className="text-white text-6xl sm:text-5xl font-bold mb-1 animate-fade">Hey, I&apos;m <span className="fade-color text-blue-600">Ryan</span> <span className="inline text-2xl sm:hidden italic font-semibold text-gray-400"></span></h1>
