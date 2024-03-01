@@ -32,7 +32,7 @@ const HeroSection = () => {
       </svg> */}
      
     </div>
-    <img src="https://media.discordapp.net/attachments/1045786920564818000/1196555287474208820/pfp.png?ex=65b80df3&is=65a598f3&hm=8f88d012050504ac377d31dc6dc4dd3a850b31c1c6fd4a9b1498c4ca45aaab4c&=&format=webp&quality=lossless&width=675&height=675" alt="" draggable="false" className="fade-color relative rounded-full h-[24rem] w-[24rem] border-[2px] border-white  mr-8 lg:hidden mt-28 scale"/>
+    <img src="https://i.ibb.co/yfHGnL1/pfp.png" alt="" draggable="false" className="fade-color relative rounded-full h-[24rem] w-[24rem] border-[2px] border-white  mr-8 lg:hidden mt-28 scale"/>
     {/* <div className="w-screen h-20 absolute bottom-0 bg-gradient-to-b from-transparent to-slate-900"></div> */}
   </section>
 
