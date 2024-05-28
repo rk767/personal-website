@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection'
 import Preloader from './components/Preloader'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Featured from './components/Featured'
 
 
 
@@ -26,10 +27,11 @@ export default function Home() {
     <>
       {loading ? <Preloader /> : 
       <main className="min-h-screen font-kanit overflow-x-hidden max-w-full">
-        <Navbar />
-        <HeroSection />
-        <AboutSection />
-        <Projects />
+        <Navbar/>
+        <HeroSection/>
+        <AboutSection/>
+        <Featured/>
+        <Projects/>
         <Footer/>
       </main>
       }
