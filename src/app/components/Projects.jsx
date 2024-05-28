@@ -50,7 +50,7 @@ const Projects = () => {
           
       </div>
       <div className='flex gap-12 items-center justify-center flex-row flex-wrap'>
-        <a href="https://github.com/rk767/yolov8-tumor-detection">
+        <a href="https://github.com/rk767/Senlyzer">
             <div className='hover:-translate-y-3 duration-500 w-[290px] h-[420px] border-2 rounded-lgflex justify-center items-center text-sky-200 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]'>
                 <div className='w-full h-[180px]'>
                   <svg width="165" height="165" viewBox="0 0 48 48" className='mx-auto my-auto'>
